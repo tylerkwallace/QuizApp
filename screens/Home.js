@@ -5,7 +5,7 @@ import Title from "../components/Title";
 const Home = ({navigation}) => {
     return(
         <View style={styles.container}>
-            <Title />
+            <Title titleText='Quizzler' />
             <View style={styles.bannerContainer}>
                 <Image source={{uri:'https://raw.githubusercontent.com/tylerkwallace/Images/master/Sorting%20thoughts-bro.png'}} 
                 style={styles.banner}

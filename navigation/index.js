@@ -3,6 +3,7 @@ import Home from "../screens/Home";
 import Quiz from "../screens/Quiz";
 import Result from "../screens/Result";
 import React from "react";
+import Categories from "../screens/Categories"
 
 const Stack = createNativeStackNavigator();
 
